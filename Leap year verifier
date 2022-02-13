@@ -1,0 +1,5 @@
+def year(val):
+    if val%4==0: print ('The year {} is a leap year'.format (val))
+    else: print (f'The year {val} is not a leap year')
+val =  int(input ("Enter year: "))
+year(val)
